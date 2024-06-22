@@ -1,0 +1,28 @@
+
+.timer-container {
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.timer {
+  background-color: silver;
+  display: flex;
+  flex: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.timer div:first-child {
+  border: 2px solid black;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns:  repeat(8, 1fr) ;
+  margin-top: 8em;
+  padding: 3em;
+  margin-bottom: 8em;
+  text-align: center;
+}
